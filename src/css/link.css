@@ -1,0 +1,26 @@
+.fancy-link {
+  color: green; /* Primary color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  padding: 5px 10px; /* Add some padding */
+  border: 2px solid green; /* Add a border */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  font-size: 1.2rem;
+}
+
+.fancy-link:hover {
+  color: white; /* Change text color on hover */
+  background-color: green; /* Add a background color */
+  text-decoration: underline; /* Add underline on hover */
+  transform: scale(1.05); /* Slightly enlarge */
+}
+
+.fancy-link:active {
+  transform: scale(0.95); /* Shrink slightly when clicked */
+  background-color: green; /* Darker background on active state */
+}
+
+.fancy-link#play-link {
+  font-size: 2rem;
+}
