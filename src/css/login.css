@@ -1,0 +1,9 @@
+#login-div-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-div-base {
+}

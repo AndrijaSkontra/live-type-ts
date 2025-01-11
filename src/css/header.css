@@ -1,9 +1,10 @@
 header {
+  background-color: var(--lightest-cream);
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100vw;
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid var(--dark-brown);
   display: flex;
   justify-content: space-between;
   align-items: center;

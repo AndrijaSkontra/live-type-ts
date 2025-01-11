@@ -2,26 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/logo.png" />
+    <link rel="icon" href="/logo2.png" />
     <link href="/src/style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LiveType</title>
   </head>
   <body>
-    <header>
-      <div id="header-left">
-        <a href="/">
-          <img src="/logo.png" alt="logo" width="100" height="100" />
-        </a>
-        <a class="fancy-link" href="/play/" id="play-link">Play</a>
-      </div>
-      <div id="header-right">
-        <a class="fancy-link" href="/leaderboard/">Leaderboard</a>
-        <a class="fancy-link" href="/practice/">Practice</a>
-        <a class="fancy-link" href="/profile/">Profile</a>
-      </div>
-    </header>
-    <div id="app"></div>
+    <my-header></my-header>
+    <div id="app">Leaderboard</div>
     <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/components/header.ts"></script>
   </body>
 </html>

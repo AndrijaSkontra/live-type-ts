@@ -1,26 +1,33 @@
 .fancy-link {
-  color: green; /* Primary color */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make the text bold */
-  padding: 5px 10px; /* Add some padding */
-  border: 2px solid green; /* Add a border */
-  border-radius: 5px; /* Rounded corners */
-  transition: all 0.3s ease; /* Smooth hover effect */
+  color: var(--light-brown);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid var(--dark-brown);
+  border-radius: 5px;
+  background-color: var(--light-cream);
+  transition: all 0.3s ease;
   font-size: 1.2rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .fancy-link:hover {
-  color: white; /* Change text color on hover */
-  background-color: green; /* Add a background color */
-  text-decoration: underline; /* Add underline on hover */
-  transform: scale(1.05); /* Slightly enlarge */
+  color: var(--medium-brown);
+  text-decoration: none;
+  background-color: var(--medium-cream);
+  transform: scale(1.05);
 }
 
 .fancy-link:active {
-  transform: scale(0.95); /* Shrink slightly when clicked */
-  background-color: green; /* Darker background on active state */
+  transform: scale(0.95);
+  background-color: green;
 }
 
 .fancy-link#play-link {
   font-size: 2rem;
+}
+
+#link-with-icon-div {
+  display: flex;
+  align-items: center;
 }

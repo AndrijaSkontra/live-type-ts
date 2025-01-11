@@ -1,2 +1,9 @@
+@import url("css/variables.css");
 @import url("css/header.css");
 @import url("css/link.css");
+@import url("css/login.css");
+
+/*this is needed because of the header*/
+body {
+  margin-top: 8rem;
+}
