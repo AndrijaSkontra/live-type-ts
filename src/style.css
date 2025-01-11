@@ -2,8 +2,12 @@
 @import url("css/header.css");
 @import url("css/link.css");
 @import url("css/login.css");
+@import url("css/input.css");
+@import url("css/button.css");
+@import url("css/text.css");
 
 /*this is needed because of the header*/
 body {
   margin-top: 8rem;
+  background-color: var(--lightest-cream);
 }

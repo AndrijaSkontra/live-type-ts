@@ -1,0 +1,29 @@
+.retro-button {
+  font-family: inherit;
+  color: var(--light-cream);
+  background-color: var(--medium-brown);
+  font-size: 1.2rem;
+  border: 2px solid var(--dark-brown);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px var(--light-brown);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.retro-button:hover {
+  background-color: var(--light-brown);
+  box-shadow: 0 0 8px var(--light-brown);
+  border: 2px solid var(--medium-brown);
+  color: white;
+}
+
+.retro-button:active {
+  background-color: var(--light-brown);
+  box-shadow: 0 2px 2px var(--dark-brown);
+  transform: translateY(2px);
+}
+
+.login-button {
+  width: 100%;
+}

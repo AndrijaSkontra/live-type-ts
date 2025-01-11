@@ -1,0 +1,10 @@
+.livetype-header {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--dark-brown);
+}
+
+.livetype-desc {
+  font-size: 1.5rem;
+  color: gray;
+}

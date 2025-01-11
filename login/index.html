@@ -9,9 +9,39 @@
   </head>
   <body>
     <div id="login-div-center">
+      <div style="display: flex; flex-direction: column; margin-right: 5rem">
+        <span class="livetype-header" style="margin-bottom: 1rem"
+          >livetype</span
+        >
+        <span class="livetype-desc">
+          LiveType lets you beat your friends in a realtime typing battle.
+        </span>
+      </div>
       <div id="login-div-base">
-        <img src="/logo2.png" alt="logo" width="100" height="100" />
-        <div id="app">Login</div>
+        <img src="/logo2.png" alt="logo" width="200" height="200" />
+        <input
+          class="retro-input"
+          type="text"
+          placeholder="Email address"
+          style="width: 100%"
+        />
+        <input
+          class="retro-input"
+          type="password"
+          placeholder="Password"
+          style="width: 100%"
+        />
+        <div
+          style="
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <button class="retro-button login-button">Log in</button>
+          <a id="sign-up-link" href="/">No account?</a>
+        </div>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>

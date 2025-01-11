@@ -1,0 +1,30 @@
+.retro-input {
+  font-family: inherit;
+  font-size: 1rem;
+  /*color: var(--light-cream);*/
+  background-color: var(--medium-cream);
+  border: 2px solid var(--dark-brown);
+  padding: 10px 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 4px var(--light-brown);
+  /*text-shadow: 1px 2px 1px var(--dark-brown);*/
+  transition: all 0.3s ease-in-out;
+}
+
+.retro-input::placeholder {
+  color: gray;
+  text-shadow: none;
+}
+
+.retro-input:focus {
+  background-color: var(--cream);
+  box-shadow: 0 0 8px var(--light-brown);
+}
+
+.retro-input:focus::placeholder {
+  color: black;
+}

@@ -18,11 +18,6 @@
   transform: scale(1.05);
 }
 
-.fancy-link:active {
-  transform: scale(0.95);
-  background-color: green;
-}
-
 .fancy-link#play-link {
   font-size: 2rem;
 }
@@ -30,4 +25,14 @@
 #link-with-icon-div {
   display: flex;
   align-items: center;
+}
+
+#sign-up-link {
+  margin-top: 0.8rem;
+  text-decoration: none;
+  color: var(--light-brown);
+}
+
+#sign-up-link:hover {
+  text-decoration: underline;
 }

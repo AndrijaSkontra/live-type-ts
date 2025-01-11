@@ -6,4 +6,18 @@
 }
 
 #login-div-base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  box-shadow: 0 0 2px black;
+  border-radius: 5px;
+  min-width: 400px;
+}
+
+#login-div-base > :not(:first-child) {
+  margin-top: 1.5rem;
 }
